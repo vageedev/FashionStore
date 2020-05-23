@@ -82,7 +82,6 @@ class App extends Component{
                         <Route exact path = '/index' component = {WishList} />
                         <Route exact path = '/view' component = {DisplayReviews} />
                         <Route exact path = '/n/:id' component = {UpdateReviews} />
-
                     </Switch>
                 </div>
             </Router>
